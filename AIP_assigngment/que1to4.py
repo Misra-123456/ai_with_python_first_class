@@ -58,6 +58,11 @@ print(f"Change: {change}")
 
 
 def my_split(sentence, separator):
-    pass
+    result = []
+    return result
 def my_join(words, separator):
-    pass
+    result=""
+    return result
+sentence = input("enter sentence: ")
+words = my_split(sentence,"")
+joined = my_join(words,",")
