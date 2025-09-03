@@ -38,6 +38,7 @@ while True:
 
 prices = [10, 14, 22, 33, 44, 13, 22, 55, 66, 77]
 totalsum = 0
+print("Supermarket\n==============================================")
 while True:
     product = int(input("Please select product (1-10) 0 to Quit: "))
     if product == 0:
@@ -53,3 +54,10 @@ payment = int(input("Payment: "))
 change = payment - totalsum
 print(f"Change: {change}")
 
+
+
+
+def my_split(sentence, separator):
+    pass
+def my_join(words, separator):
+    pass
